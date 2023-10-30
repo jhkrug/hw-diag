@@ -10,7 +10,7 @@ A visual representation of the valid upgrade paths available
 for [Harvester](https://docs.harvesterhci.io/v1.2/upgrade/index).
 
 ```console
-graph LR/TB;
+graph LR;
     1.0.0-->1.0.1;
     1.0.1-->1.0.2;
     1.0.2-->1.0.3;
@@ -25,7 +25,7 @@ graph LR/TB;
 ```
 
 
-## LR orientation.
+## The first iteration
 
 ```mermaid
 graph LR;
