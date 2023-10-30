@@ -1,4 +1,6 @@
-# Website
+# SUSE Hack Week - November 2023, Diagramming for docs
+
+## Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
