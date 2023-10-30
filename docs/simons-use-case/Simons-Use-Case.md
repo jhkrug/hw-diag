@@ -5,7 +5,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-Simon Flood at Secure Linux suggested a use case as follows;
+Simon Flood at Securelinx suggested a use case as follows;
 A visual representation of the valid upgrade paths available
 for [Harvester](https://docs.harvesterhci.io/v1.2/upgrade/index).
 
@@ -123,7 +123,7 @@ flowchart RL;
 1.1.0-->1.1.1;
 1.1.1-->1.1.2;
 style 1.2.0 fill:#b96
-1.1.2-->1.2.0;
+1.1.2-->|Not recommended|1.2.0;
 1.1.2-->1.2.1;
 1.2.0-->1.2.1;
 ```
