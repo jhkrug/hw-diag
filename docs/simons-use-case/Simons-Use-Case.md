@@ -66,7 +66,7 @@ via tabs perhaps. But only for the diagram switch. I'm not a fan of tabs if
 they hide searchable content.
 
 <Tabs>
-  <TabItem value="Horizontal" label="Horizontal" default>
+  <TabItem value="Horizontal LR" label="Horizontal LR" default>
 
 ```mermaid
 graph LR;
@@ -84,7 +84,7 @@ graph LR;
 ```
 
   </TabItem>
-  <TabItem value="Vertical" label="Vertical">
+  <TabItem value="Vertical TB" label="Vertical TB">
 
 ```mermaid
 graph TB;
@@ -104,6 +104,53 @@ graph TB;
   </TabItem>
 </Tabs>
 
+## Some twiddling of options
+
+Playing with shapes, etc. Seems to need the neutral theme to avoid the link text line running through the link text.
+
+<Tabs>
+  <TabItem value="Horizontal RL" label="Horizontal RL" default>
+
+```mermaid
+%%{init: "theme": "neutral"}%%
+flowchart RL;
+1.0.0(1.0.0)-->1.0.1((1.0.1));
+1.0.1-->1.0.2[/1.0.2/];
+1.0.2-->1.0.3;
+1.0.3-->1.1.0;
+1.0.3-->1.1.1;
+1.1.0-->|Breaking changes|1.1.2;
+1.1.0-->1.1.1;
+1.1.1-->1.1.2;
+style 1.2.0 fill:#b96
+1.1.2-->1.2.0;
+1.1.2-->1.2.1;
+1.2.0-->1.2.1;
+```
+
+  </TabItem>
+  <TabItem value="Vertical BT" label="Vertical BT">
+
+```mermaid
+%%{init: "theme": "neutral"}%%
+flowchart BT;
+1.0.0(1.0.0)-->1.0.1((1.0.1));
+1.0.1-->1.0.2[/1.0.2/];
+1.0.2-->1.0.3;
+1.0.3-->1.1.0;
+1.0.3-->1.1.1;
+1.1.0-->|Breaking changes|1.1.2;
+1.1.0-->1.1.1;
+1.1.1-->1.1.2;
+style 1.2.0 fill:#b96
+1.1.2-->1.2.0;
+1.1.2-->1.2.1;
+1.2.0-->1.2.1;
+```
+
+  </TabItem>
+</Tabs>
+
 ## Observation
 
-A perfect use of Mermaid in our documentation.
+A good use of Mermaid in our documentation.
