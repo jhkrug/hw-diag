@@ -1,9 +1,10 @@
 ---
+sidebar_position: 40
 title: Simon's use case
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
 
 Simon Flood at Securelinx suggested a use case as follows;
 A visual representation of the valid upgrade paths available

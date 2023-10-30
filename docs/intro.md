@@ -1,5 +1,7 @@
 ---
 slug: /
+sidebar_label: Introduction
+sidebar_position: 1
 title: SUSE HackWeek Nov 2023 - Diagramming for Docs
 ---
 
