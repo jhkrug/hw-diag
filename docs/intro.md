@@ -12,9 +12,9 @@ There are a few iterative parts:
 * Refine and expand the requirements
 * Select a few tools, one or two diagrams-as-code tools, one or two more interactive tools
 * Do some work with them, produce my two current requirement diagrams, consider the trials and tribulations.
-* Make the recommendations for moving forwards, a report, as a small Docusaurus site.
+* Make the recommendations for moving forwards, a report, as a small [Docusaurus](https://main--chipper-kheer-a572a0.netlify.app/) site.
 
-The requirements, at present:
+The requirements:
 
 * Text based format for diagram files. At a minimum SVG or XML.
 * Usable on Linux, Mac, Win, or via the web
