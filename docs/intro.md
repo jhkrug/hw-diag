@@ -5,7 +5,7 @@ sidebar_position: 1
 title: SUSE HackWeek Nov 2023 - Diagramming for Docs
 ---
 
-My proposal for hack week (as discussed with Nuno and agreed with Guna) is to dive into diagramming for the doc(s) team(s) as I've struggled to give it the decent block of time it needs. Thoughts, pointers, links welcome.
+My proposal for hack week is to dive into diagramming for the doc(s) team(s) as I've struggled to give it the decent block of time it needs. Thoughts, pointers, links welcome.
 
 There are a few iterative parts:
 
