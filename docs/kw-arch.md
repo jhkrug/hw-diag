@@ -10,9 +10,17 @@ This diagram is part of the [Kubewarden architecture](https://docs.kubewarden.io
 ## With Mermaid
 
 ```mermaid
+%%{
+  init: {
+    "flowchart": {
+      "defaultRenderer": "elk",
+      "htmlLabels": false,
+    }
+  }
+}%%
 graph TB
-    kubewarden_controller[Kubewarden Controller]
-    subgraph k8s[Kubernetes]
+    kubewarden_controller["`**Kubewarden Controller**`"]
+    subgraph k8s["`**Kubernetes**`"]
       subgraph kubernetes_api_server[Kubernetes API Server]
           policy_server_in[PolicyServer]
           cluster_admission_policy_in[ClusterAdmissionPolicy]
@@ -28,7 +36,7 @@ graph TB
     cluster_admission_policy_in[ClusterAdmissionPolicy]
     kubewarden_policy_server_1[Kubewarden Policy Server]
     kubewarden_policy_server_2[Kubewarden Policy Server]
-    oci_registry[OCI Registry]
+    oci_registry[(OCI Registry)]
     policy_server_out --> policy_server_in
     cluster_admission_policy_out --> cluster_admission_policy_in
     policy_server_in --> kubewarden_controller
@@ -58,4 +66,6 @@ graph TB
     policy_6 --- oci_registry
     kubewarden_policy_server_1 --> kubernetes_api_server
     kubewarden_policy_server_2 --> kubernetes_api_server
+    style policy_1 fill:#f9f
+    style kubernetes_api_server fill:#f9f
 ```
