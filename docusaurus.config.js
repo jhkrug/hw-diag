@@ -43,7 +43,7 @@ const config = {
           sidebarCollapsed: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/jhkrug/hw-diag/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jhkrug/hw-diag/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
