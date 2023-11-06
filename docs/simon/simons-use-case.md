@@ -1,4 +1,5 @@
 ---
+sidebar_label: "Simon's use case"
 sidebar_position: 40
 title: Simon's use case
 ---

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="132.85539mm"
+   height="53.258839mm"
+   viewBox="0 0 132.85539 53.258839"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="inkscape-kw-diag.svg"
+   inkscape:export-filename="inkscape-kw-diag.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.5588988"
+     inkscape:cx="397.04579"
+     inkscape:cy="436.1251"
+     inkscape:window-width="2550"
+     inkscape:window-height="1406"
+     inkscape:window-x="0"
+     inkscape:window-y="1440"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.575723,-92.487645)">
+    <g
+       id="g7"
+       transform="translate(-2.1269977,-1.7904956)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#1a1a1a;stroke:#1a1a1a;stroke-width:0.289999"
+         x="99.792725"
+         y="118.83131"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';stroke-width:0.29"
+           x="99.792725"
+           y="118.83131">Kubernetes API Server</tspan></text>
+      <rect
+         style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         id="rect7"
+         width="132.5654"
+         height="32.646118"
+         x="17.847721"
+         y="114.74586" />
+    </g>
+    <g
+       id="g12"
+       transform="translate(-53.844582,-36.093813)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:0;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         x="73.360405"
+         y="158.08041"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="stroke-width:0.29"
+           x="73.360405"
+           y="158.08041">PolicyServer</tspan></text>
+      <rect
+         style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         id="rect10"
+         width="28.002783"
+         height="4.8954201"
+         x="71.992493"
+         y="154.50397" />
+    </g>
+    <g
+       id="g12-3"
+       transform="translate(-54.829495,-59.341196)"
+       style="image-rendering:auto">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:0;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         x="73.360405"
+         y="158.08041"
+         id="text8-3"><tspan
+           sodipodi:role="line"
+           id="tspan8-9"
+           style="stroke-width:0.29"
+           x="73.360405"
+           y="158.08041">PolicyServer</tspan></text>
+      <rect
+         style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         id="rect10-7"
+         width="28.002783"
+         height="4.8954201"
+         x="71.992493"
+         y="154.50397" />
+    </g>
+    <rect
+       style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+       id="rect10-7-2"
+       width="28.002783"
+       height="4.8954201"
+       x="18.534924"
+       y="92.632645" />
+    <g
+       id="g13"
+       transform="translate(-34.087214,-35.248421)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:0;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         x="78.40226"
+         y="174.2803"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="stroke-width:0.29"
+           x="78.40226"
+           y="174.2803">ClusterAdmissionPolicy</tspan></text>
+      <rect
+         style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         id="rect11"
+         width="48.817276"
+         height="5.2924242"
+         x="77.352547"
+         y="170.56598" />
+    </g>
+    <g
+       id="g14"
+       transform="translate(15.019436,-48.284463)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:0;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono';fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         x="84.266655"
+         y="183.41299"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="stroke-width:0.29"
+           x="84.266655"
+           y="183.41299">Webhook Configuration</tspan></text>
+      <rect
+         style="fill:none;stroke:#1a1a1a;stroke-width:0.289999"
+         id="rect12"
+         width="47.780174"
+         height="5.2760158"
+         x="82.319946"
+         y="179.76381" />
+    </g>
+  </g>
+</svg>

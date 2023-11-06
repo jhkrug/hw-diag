@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+figure {
+  border: 1px solid darkgreen;
+  padding: 2px;
+}
+figcaption {
+  font-style: italic;
+}

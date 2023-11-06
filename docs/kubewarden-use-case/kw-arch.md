@@ -5,9 +5,44 @@ title: Kubewarden architecture diagram
 
 This diagram is part of the [Kubewarden architecture](https://docs.kubewarden.io/architecture) description.
 
+This is the original diagram from that documentation.
+
+<figure>
+
 ![Kubewarden architecture diagram](/img/kw-architecture.png)
 
+<figcaption>
+Figure 1: Original Kubewarden architecture diagram
+</figcaption>
+</figure>
+
+## Inkscape
+
+This is the result of my first hour with Inkscape.
+It appears Inkscape is a comprehensive graphical drawing tool.
+So, you need to be familiar with the concepts of layers and transparency and all the other concepts related to this type of tool.
+I dived in and tried to do an architecture block diagram.
+It was difficult going.
+I did start making progress, managing to get text and rectangles on the screen and group them together into objects.
+I had particular difficulties in having text appear on the screen.
+You are given a long, comprehensive list of fonts but only those installed on your system are displayable.
+Which was disconcerting.
+Why not display only those that are going to be useable.
+
+<figure>
+
+![Kubewarden architecture diagram](/img/inkscape-kw-diag.svg)
+
+<figcaption>
+Figure 2: Kubewarden architecture
+</figcaption>
+</figure>
+
+To continue there needs to be a period of time spent learning Inkscape and its working methodology.
+
 ## With Mermaid (dagre)
+
+<figure>
 
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
@@ -64,7 +99,14 @@ graph TB
     linkStyle 3 stroke:green,stroke-width:4px,stroke-dasharray: 5 5
 ```
 
+<figcaption>
+Figure 3: Mermaid, dagre layout
+</figcaption>
+</figure>
+
 ## With Mermaid (elk)
+
+<figure>
 
 ```mermaid
 %%{
@@ -128,3 +170,31 @@ graph TB
     style kubernetes_api_server fill:#f9f
     linkStyle 3,4,5 stroke:green,stroke-width:4px,stroke-dasharray: 5 5
 ```
+
+<figcaption>
+Figure 4: Mermaid, new elk layout
+</figcaption>
+</figure>
+
+## Excalidraw import of some Mermaid
+
+Saved from Excalidraw in exported SVG.
+
+<figure>
+
+![](/img/excalidraw-import-of-kw-mermaid.svg)
+
+<figcaption>
+Figure 5: Excalidraw rendering of an imported Mermaid KW diagram
+</figcaption>
+</figure>
+
+The same but exported as a PNG. It's a better preservation of Excalidraw's default hand drawn and written style.
+<figure>
+
+![](/img/excalidraw-import-of-kw-mermaid.png)
+
+<figcaption>
+Figure 6: Excalidraw rendering of an imported Mermaid KW diagram, but exported as a PNG
+</figcaption>
+</figure>
