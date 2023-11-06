@@ -5,9 +5,15 @@ sidebar_position: 1
 title: SUSE HackWeek Nov 2023 - Diagramming for Docs
 ---
 
+## Introduction
+
 My (John Krug, john.krug@suse.com) proposal for hack week is to dive into
-diagramming for the doc(s) team(s) as I've struggled to give it the decent
-block of time it needs. Thoughts, pointers, links welcome.
+diagramming for the doc(s) team(s).
+I've struggled to give it the decent block of time it needs.
+This hack week project is driven by the need to update the architecture and process diagrams that exist for my current projects [Epinio](https://epinio.io) and [Kubewarden](https://kubewarden.io).
+I am approaching this without the benefit of much background in the area.
+My experience is as a system administrator and developer and my leaning is going to be towards formats that integrate well with a docs-as-code approach.
+Thoughts, pointers, links welcome.
 
 There are a few iterative parts:
 
@@ -30,17 +36,3 @@ A short learning curve as opposed to features
 - The Rancher docs team use [Docusaurus](https://docusaurus.io)
 and [VSCode](https://code.visualstudio.com) for editing.
 So, tools that play well with both of those have advantages.
-
-The technologies:
-
-- Interactive
-  - [Inkscape](https://inkscape.org), a traditional application has been used by team members, both Rancher and SUSE.
-  It's maintained and in development.
-  - An in-browser alternative is [Excalidraw](https://excalidraw.com) which appears to be both simple and easy to start with extensibility via libraries of components.
-- Diagramming-as-code
-  - [Mermaid.js](https://mermaid.js.org).
-  The default (for Rancher docs teams) due to integration with Docusaurus.
-  - [D2](https://d2lang.com)
-  - [Structurizr](https://structurizr.com)
-  - [diagrams.mingrammer](https://diagrams.mingrammer.com/)
-  - [PlantUML](https://plantuml.com)
