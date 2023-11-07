@@ -100,11 +100,11 @@ graph TB
 ```
 
 <figcaption>
-Figure 3: Mermaid, dagre layout
+Figure 3: Mermaid, `dagre` layout
 </figcaption>
 </figure>
 
-## With Mermaid (elk)
+## With Mermaid, `elk` layout
 
 <figure>
 
@@ -172,16 +172,16 @@ graph TB
 ```
 
 <figcaption>
-Figure 4: Mermaid, new elk layout
+Figure 4: Mermaid, new `elk` layout
 </figcaption>
 </figure>
 
-## Excalidraw import of some Mermaid
+## Excalidraw import of Mermaid markup
 
-It's possible to import Mermaid markup into Excalidraw.
-But, it's not possible to export from Excalidraw to Mermaid markup.
+You can import Mermaid markup into Excalidraw.
+But, impossible to export from Excalidraw to Mermaid markup.
 Which is understandable but means the facility has limited use.
-You would be wanting to change permanently from a Mermaid markup diagram to Excalidraw.
+You would want to change permanently from a Mermaid markup diagram to Excalidraw.
 
 Saved from Excalidraw in exported SVG and PNG.
 
@@ -194,7 +194,9 @@ Figure 5: Excalidraw rendering of an imported Mermaid KW diagram
 </figcaption>
 </figure>
 
-The same but exported as a PNG. It's a better preservation of Excalidraw's default hand drawn and written style.
+The same but exported as a PNG.
+It's a better preservation of Excalidraw's default hand drawn and written style.
+
 <figure>
 
 ![](/img/excalidraw-import-of-kw-mermaid.png)

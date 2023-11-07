@@ -26,7 +26,6 @@ graph LR;
     1.2.0-->1.2.1;
 ```
 
-
 ## The first iteration
 
 ```mermaid
@@ -61,14 +60,14 @@ graph LR;
     1.2.0-->1.2.1;
 ```
 
-## TB orientation.
+## Top to bottom orientation
 
 It would be nice to swap to this if on a phone screen. Option
 via tabs perhaps. But only for the diagram switch. I'm not a fan of tabs if
 they hide searchable content.
 
 <Tabs>
-  <TabItem value="Horizontal LR" label="Horizontal LR" default>
+<TabItem value="Horizontal LR" label="Horizontal LR" default>
 
 ```mermaid
 graph LR;
@@ -85,8 +84,8 @@ graph LR;
     1.2.0-->1.2.1;
 ```
 
-  </TabItem>
-  <TabItem value="Vertical TB" label="Vertical TB">
+</TabItem>
+<TabItem value="Vertical TB" label="Vertical TB">
 
 ```mermaid
 graph TB;
@@ -103,12 +102,12 @@ graph TB;
 1.2.0-->1.2.1;
 ```
 
-  </TabItem>
+</TabItem>
 </Tabs>
 
 ## Some twiddling of options
 
-Playing with shapes, etc. Seems to need the neutral theme to avoid the link text line running through the link text.
+Playing with shapes, etc. It needs the neutral theme to avoid the link text line running through the link text.
 
 <Tabs>
   <TabItem value="Horizontal LR" label="Horizontal LR" default>
@@ -130,8 +129,8 @@ style 1.2.0 fill:#b96
 1.2.0-->1.2.1;
 ```
 
-  </TabItem>
-  <TabItem value="Vertical TB" label="Vertical TB">
+</TabItem>
+<TabItem value="Vertical TB" label="Vertical TB">
 
 ```mermaid
 %%{init: "theme": "neutral"}%%
@@ -150,7 +149,7 @@ style 1.2.0 fill:#b96
 1.2.0-->1.2.1;
 ```
 
-  </TabItem>
+</TabItem>
 </Tabs>
 
 A final version for this application:
