@@ -178,7 +178,12 @@ Figure 4: Mermaid, new elk layout
 
 ## Excalidraw import of some Mermaid
 
-Saved from Excalidraw in exported SVG.
+It's possible to import Mermaid markup into Excalidraw.
+But, it's not possible to export from Excalidraw to Mermaid markup.
+Which is understandable but means the facility has limited use.
+You would be wanting to change permanently from a Mermaid markup diagram to Excalidraw.
+
+Saved from Excalidraw in exported SVG and PNG.
 
 <figure>
 

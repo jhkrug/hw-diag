@@ -7,11 +7,11 @@ title: SUSE HackWeek Nov 2023 - Diagramming for Docs
 
 ## Introduction
 
-My (John Krug, john.krug@suse.com) proposal for hack week is to dive into
+My ([John Krug](https://github.com/jhkrug)) proposal for hack week is to dive into
 diagramming for the doc(s) team(s).
 I've struggled to give it the decent block of time it needs.
 There are two docs teams, that which came from SUSE and that which originated within Rancher.
-I'm part of the second.
+I recently joined the Rancher team, and I am working on product documentation.
 
 This hack week project is driven by the need to update the architecture and process diagrams that exist for my current projects [Epinio](https://epinio.io) and [Kubewarden](https://kubewarden.io).
 
@@ -20,7 +20,7 @@ I'll not just be trying to reproduce them, I'd like to better understand whether
 I'm approaching this without the benefit of much background in the area and no experience in any of these particular tools.
 I have almost certainly missed some tools that would be useful.
 Point them out to me, thanks!
-My experience is as a system administrator and developer and my leaning is going to be towards formats that integrate well with a docs-as-code approach.
+My experience is as a system administrator and developer and my leaning is towards tooling that integrates well with a docs-as-code approach.
 
 Thoughts, pointers, links and contributions welcome.
 
