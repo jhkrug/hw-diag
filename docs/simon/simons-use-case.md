@@ -111,11 +111,11 @@ graph TB;
 Playing with shapes, etc. Seems to need the neutral theme to avoid the link text line running through the link text.
 
 <Tabs>
-  <TabItem value="Horizontal RL" label="Horizontal RL" default>
+  <TabItem value="Horizontal LR" label="Horizontal LR" default>
 
 ```mermaid
 %%{init: "theme": "neutral"}%%
-flowchart RL;
+flowchart LR;
 1.0.0(1.0.0)-->1.0.1((1.0.1));
 1.0.1-->1.0.2[/1.0.2/];
 1.0.2-->1.0.3;
@@ -131,7 +131,7 @@ style 1.2.0 fill:#b96
 ```
 
   </TabItem>
-  <TabItem value="Vertical BT" label="Vertical BT">
+  <TabItem value="Vertical TB" label="Vertical TB">
 
 ```mermaid
 %%{init: "theme": "neutral"}%%
@@ -151,6 +151,56 @@ style 1.2.0 fill:#b96
 ```
 
   </TabItem>
+</Tabs>
+
+A final version for this application:
+
+<Tabs>
+
+<TabItem value="Horizontal" label="Horizontal" default>
+
+```mermaid
+%%{init: "theme": "neutral"}%%
+flowchart LR;
+  1.0.0(1.0.0)-->1.0.1(1.0.1);
+  1.0.1-->1.0.2(1.0.2);
+  1.0.2-->1.0.3(1.0.3);
+  1.0.3-->1.1.0(1.1.0);
+  1.0.3-->1.1.1(1.1.1);
+  1.1.0-->1.1.2(1.1.2);
+  1.1.0-->1.1.1;
+  1.1.1-->1.1.2;
+  1.1.2-->|Not recommended|1.2.0(1.2.0);
+  1.1.2-->1.2.1(1.2.1);
+  1.2.0-->1.2.1;
+  style 1.2.0 fill:gray
+  linkStyle 8 color:red,stroke-width:2px,stroke-dasharray: 3 5
+```
+
+</TabItem>
+
+<TabItem value="Vertical" label="Vertical" default>
+
+```mermaid
+%%{init: "theme": "neutral"}%%
+flowchart TB;
+  1.0.0(1.0.0)-->1.0.1(1.0.1);
+  1.0.1-->1.0.2(1.0.2);
+  1.0.2-->1.0.3(1.0.3);
+  1.0.3-->1.1.0(1.1.0);
+  1.0.3-->1.1.1(1.1.1);
+  1.1.0-->1.1.2(1.1.2);
+  1.1.0-->1.1.1;
+  1.1.1-->1.1.2;
+  1.1.2-->|Not recommended|1.2.0(1.2.0);
+  1.1.2-->1.2.1(1.2.1);
+  1.2.0-->1.2.1;
+  style 1.2.0 fill:gray
+  linkStyle 8 color:red,stroke-width:2px,stroke-dasharray: 3 5
+```
+
+</TabItem>
+
 </Tabs>
 
 ## Observation

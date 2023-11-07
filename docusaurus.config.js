@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SUSE/Rancher docs diagramming',
+  title: 'Diagramming for Docs',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -58,9 +58,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'SUSE/Rancher docs diagramming',
+        title: 'Diagramming for Docs',
         logo: {
-          alt: 'SUSE/Rancher docs diagramming',
+          alt: 'SUSE/Rancher Diagramming for Docs',
           src: 'img/logo.svg',
         },
         items: [

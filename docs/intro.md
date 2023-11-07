@@ -11,13 +11,15 @@ My (John Krug, john.krug@suse.com) proposal for hack week is to dive into
 diagramming for the doc(s) team(s).
 I've struggled to give it the decent block of time it needs.
 There are two docs teams, that which came from SUSE and that which originated within Rancher.
+I'm part of the second.
 
 This hack week project is driven by the need to update the architecture and process diagrams that exist for my current projects [Epinio](https://epinio.io) and [Kubewarden](https://kubewarden.io).
 
-It's worth noting that I'll not just be trying to reproduce them, I'd like to understand better whether there are better ways of diagrammatically conveying their intended meaning.
+I'll not just be trying to reproduce them, I'd like to better understand whether there are more suitable ways of diagrammatically conveying their intended meaning.
 
 I'm approaching this without the benefit of much background in the area and no experience in any of these particular tools.
-I have almost certainly missed some tools that would be useful. Point them out to me. Thanks!
+I have almost certainly missed some tools that would be useful.
+Point them out to me, thanks!
 My experience is as a system administrator and developer and my leaning is going to be towards formats that integrate well with a docs-as-code approach.
 
 Thoughts, pointers, links and contributions welcome.

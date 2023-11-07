@@ -1,0 +1,15 @@
+--2023-11-07 09:35:51--  https://confluence.suse.com/download/attachments/1185186173/SUSE_Logo-hor_L_Green-pos_sRGB.svg?version=2
+Resolving confluence.suse.com (confluence.suse.com)... 195.135.223.241
+Connecting to confluence.suse.com (confluence.suse.com)|195.135.223.241|:443... connected.
+HTTP request sent, awaiting response... 302 
+Location: /login.action?os_destination=%2Fdownload%2Fattachments%2F1185186173%2FSUSE_Logo-hor_L_Green-pos_sRGB.svg%3Fversion%3D2&permissionViolation=true [following]
+--2023-11-07 09:35:51--  https://confluence.suse.com/login.action?os_destination=%2Fdownload%2Fattachments%2F1185186173%2FSUSE_Logo-hor_L_Green-pos_sRGB.svg%3Fversion%3D2&permissionViolation=true
+Reusing existing connection to confluence.suse.com:443.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [text/html]
+Saving to: ‘SUSE_Logo-hor_L_Green-pos_sRGB.svg?version=2’
+
+                SUSE_Logo-hor_L_     [<=>                                                     ]       0  --.-KB/s               SUSE_Logo-hor_L_Green-pos_sRGB.s     [ <=>                                                    ]  45.50K  --.-KB/s    in 0.1s    
+
+2023-11-07 09:35:51 (464 KB/s) - ‘SUSE_Logo-hor_L_Green-pos_sRGB.svg?version=2’ saved [46592]
+
