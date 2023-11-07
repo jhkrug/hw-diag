@@ -25,8 +25,8 @@ I dived in and tried to do an architecture block diagram.
 It was difficult going.
 I did start making progress, managing to get text and rectangles on the screen and group them together into objects.
 I had particular difficulties in having text appear on the screen.
-You are given a long, comprehensive list of fonts but only those installed on your system are displayable.
-Which was disconcerting.
+There is a long, comprehensive list of fonts but only those installed on your system are displayable.
+Which was disconcerting, 'why is the text I typed in invisible?'.
 Why not display only those that are going to be useable.
 
 <figure>
@@ -40,7 +40,7 @@ Figure 2: Kubewarden architecture
 
 To continue there needs to be a period of time spent learning Inkscape and its working methodology.
 
-## With Mermaid (dagre)
+## With Mermaid, `dagre` layout
 
 <figure>
 
@@ -94,9 +94,6 @@ graph TB
     policy_6 --- oci_registry
     kubewarden_policy_server_1 --> kubernetes_api_server
     kubewarden_policy_server_2 --> kubernetes_api_server
-    style policy_1 fill:#f9f
-    style kubernetes_api_server fill:#f9f
-    linkStyle 3 stroke:green,stroke-width:4px,stroke-dasharray: 5 5
 ```
 
 <figcaption>
@@ -130,9 +127,10 @@ graph TB
       k8s_data_plane[Data]
       end
     end
-    policy_server_out[PolicyServer]
-    cluster_admission_policy_out["`**ClusterAdmissionPolicy**<br/>(1 ... n)`"]
-    cluster_admission_policy_in[ClusterAdmissionPolicy]
+    policy_server_out["`**PolicyServer** (1...n)`"]
+    policy_server_in["`**PolicyServer** (1...n)`"]
+    cluster_admission_policy_out["`**ClusterAdmissionPolicy** (1...n)`"]
+    cluster_admission_policy_in["`**ClusterAdmissionPolicy** (1...n)`"]
     kubewarden_policy_server_1[Kubewarden Policy Server]
     kubewarden_policy_server_2[Kubewarden Policy Server]
     oci_registry[(OCI Registry)]
@@ -166,13 +164,10 @@ graph TB
     policy_6 ---|some text| oci_registry
     kubewarden_policy_server_1 --> kubernetes_api_server
     kubewarden_policy_server_2 --> kubernetes_api_server
-    style policy_1 fill:#f9f
-    style kubernetes_api_server fill:#f9f
-    linkStyle 3,4,5 stroke:green,stroke-width:4px,stroke-dasharray: 5 5
 ```
 
 <figcaption>
-Figure 4: Mermaid, new `elk` layout
+Figure 4: Mermaid, `elk` layout
 </figcaption>
 </figure>
 

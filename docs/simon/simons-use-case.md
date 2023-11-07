@@ -11,6 +11,8 @@ Simon Flood at Securelinx suggested a use case as follows;
 A visual representation of the valid upgrade paths available
 for [Harvester](https://docs.harvesterhci.io/v1.2/upgrade/index).
 
+## Mermaid
+
 ```console
 graph LR;
     1.0.0-->1.0.1;
@@ -26,7 +28,7 @@ graph LR;
     1.2.0-->1.2.1;
 ```
 
-## The first iteration
+### The first iteration
 
 ```mermaid
 graph LR;
@@ -60,7 +62,7 @@ graph LR;
     1.2.0-->1.2.1;
 ```
 
-## Top to bottom orientation
+### Top to bottom orientation
 
 It would be nice to swap to this if on a phone screen. Option
 via tabs perhaps. But only for the diagram switch. I'm not a fan of tabs if
@@ -105,12 +107,12 @@ graph TB;
 </TabItem>
 </Tabs>
 
-## Some twiddling of options
+### Some twiddling of options
 
 Playing with shapes, etc. It needs the neutral theme to avoid the link text line running through the link text.
 
 <Tabs>
-  <TabItem value="Horizontal LR" label="Horizontal LR" default>
+<TabItem value="Horizontal LR" label="Horizontal LR" default>
 
 ```mermaid
 %%{init: "theme": "neutral"}%%
@@ -172,7 +174,7 @@ flowchart LR;
   1.1.2-->|Not recommended|1.2.0(1.2.0);
   1.1.2-->1.2.1(1.2.1);
   1.2.0-->1.2.1;
-  style 1.2.0 fill:gray
+  style 1.2.0 color:red
   linkStyle 8 color:red,stroke-width:2px,stroke-dasharray: 3 5
 ```
 
@@ -194,7 +196,7 @@ flowchart TB;
   1.1.2-->|Not recommended|1.2.0(1.2.0);
   1.1.2-->1.2.1(1.2.1);
   1.2.0-->1.2.1;
-  style 1.2.0 fill:gray
+  style 1.2.0 color:red
   linkStyle 8 color:red,stroke-width:2px,stroke-dasharray: 3 5
 ```
 
@@ -202,6 +204,41 @@ flowchart TB;
 
 </Tabs>
 
-## Observation
+## PlantUML
 
-A good use of Mermaid in our documentation.
+```PlantUML
+@startuml
+  (1.0.0) -> (1.0.1)
+  (1.0.1) -> (1.0.2)
+  (1.0.2) -> (1.0.3)
+  (1.0.3) -> (1.1.0)
+  (1.0.3) -> (1.1.1)
+  (1.1.0) -> (1.1.1)
+  (1.1.0) -> (1.1.2)
+  (1.1.1) -> (1.1.2)
+  (1.1.2) -> (1.2.0) #line.dotted;text:red : Not recommended
+  (1.2.0) -> (1.2.1)
+  (1.1.2) -> (1.2.1)
+@endum
+```
+
+produces:
+
+<figure>
+
+![](/img/harvester-upg.png)
+
+<figcaption>
+Figure n: Produced by PlantUML
+</figcaption>
+</figure>
+
+## Observations
+
+A good use of these tools in our documentation.
+The Mermaid version seems better integrated with Docusaurus and VScode.
+It's easier to write and preview directly in the markdown.
+The PlantUML needs to be saved in a file and processed with a CLI to produce an PNG for integration into the document.
+I think the Mermaid version looks better.
+It seems clearer.
+I'm sure that would be possible in PlantUML as well with some sort of directive.
