@@ -193,7 +193,7 @@ It's a better preservation of Excalidraw's default hand drawn and written style.
 
 I replicated the Kubewarden architecture diagram in Excalidraw, saved in Excalidraw/JSON format.
 There are two versions, one appearing somewhat hand drawn the other more traditional.
-They are versioned in git. [This](kubewarden-arch-hand.excalidraw.json) is the hand drawn version Excalidraw/JSON format file with a file extension of json, it should be viewable in your browser.
+They're versioned in git. [This](kubewarden-arch-hand.excalidraw.json) is the hand drawn version Excalidraw/JSON format file with a file extension of json, it should be viewable in your browser.
 
 The next two figures are the exported PNG versions.
 

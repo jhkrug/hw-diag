@@ -41,5 +41,5 @@ figcaption {
 }
 
 figcaption::before {
-  content:' Figure ' counter(figures) ': ';
+  content:'Figure ' counter(figures) ': ';
 }
