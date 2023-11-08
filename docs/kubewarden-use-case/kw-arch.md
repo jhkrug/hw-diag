@@ -188,3 +188,25 @@ It's a better preservation of Excalidraw's default hand drawn and written style.
 
 <figcaption>Excalidraw rendering of an imported Mermaid KW diagram, but exported as a PNG</figcaption>
 </figure>
+
+## Excalidraw drawings
+
+I replicated the Kubewarden architecture diagram in Excalidraw, saved in Excalidraw/JSON format.
+There are two versions, one appearing somewhat hand drawn the other more traditional.
+They are versioned in git. [This](kubewarden-arch-hand.excalidraw.json) is the hand drawn version Excalidraw/JSON format file with a file extension of json, it should be viewable in your browser.
+
+The next two figures are the exported PNG versions.
+
+<figure>
+
+![](/img/kubewarden-arch-hand.png)
+
+<figcaption>Excalidraw hand drawn PNG of Kubewarden architecture</figcaption>
+</figure>
+
+<figure>
+
+![](/img/kubewarden-arch.png)
+
+<figcaption>Excalidraw traditional PNG of Kubewarden architecture</figcaption>
+</figure>
