@@ -273,7 +273,6 @@ or SVG (which seems to render better):
 A good use of these tools in our documentation.
 The Mermaid version seems better integrated with Docusaurus and VScode.
 It's easier to write and preview directly in the markdown.
-The PlantUML is saved in a file and processed with a CLI to produce an PNG for integration into the document.
+The PlantUML is saved in a file and processed with a CLI to produce an PNG or SVG for integration into the document.
 I think the Mermaid version looks better.
-It seems clearer.
-I'm sure that would be possible in PlantUML as well with some sort of directive.
+It appears clearer, diagrammatically, rather than PNG image quality.
