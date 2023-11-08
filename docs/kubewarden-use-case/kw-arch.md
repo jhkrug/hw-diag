@@ -11,9 +11,7 @@ This is the original diagram from that documentation.
 
 ![Kubewarden architecture diagram](/img/kw-architecture.png)
 
-<figcaption>
-Figure 1: Original Kubewarden architecture diagram
-</figcaption>
+<figcaption>Original Kubewarden architecture diagram</figcaption>
 </figure>
 
 ## Inkscape
@@ -33,9 +31,7 @@ Why not display only those that are going to be useable.
 
 ![Kubewarden architecture diagram](/img/inkscape-kw-diag.svg)
 
-<figcaption>
-Figure 2: Kubewarden architecture
-</figcaption>
+<figcaption>Kubewarden architecture</figcaption>
 </figure>
 
 To continue there needs to be a period of time spent learning Inkscape and its working methodology.
@@ -96,9 +92,7 @@ graph TB
     kubewarden_policy_server_2 --> kubernetes_api_server
 ```
 
-<figcaption>
-Figure 3: Mermaid, `dagre` layout
-</figcaption>
+<figcaption>Mermaid, `dagre` layout</figcaption>
 </figure>
 
 ## With Mermaid, `elk` layout
@@ -166,9 +160,7 @@ graph TB
     kubewarden_policy_server_2 --> kubernetes_api_server
 ```
 
-<figcaption>
-Figure 4: Mermaid, `elk` layout
-</figcaption>
+<figcaption>Mermaid, `elk` layout</figcaption>
 </figure>
 
 ## Excalidraw import of Mermaid markup
@@ -184,9 +176,7 @@ Saved from Excalidraw in exported SVG and PNG.
 
 ![](/img/excalidraw-import-of-kw-mermaid.svg)
 
-<figcaption>
-Figure 5: Excalidraw rendering of an imported Mermaid KW diagram
-</figcaption>
+<figcaption>Excalidraw rendering of an imported Mermaid KW diagram</figcaption>
 </figure>
 
 The same but exported as a PNG.
@@ -196,7 +186,5 @@ It's a better preservation of Excalidraw's default hand drawn and written style.
 
 ![](/img/excalidraw-import-of-kw-mermaid.png)
 
-<figcaption>
-Figure 6: Excalidraw rendering of an imported Mermaid KW diagram, but exported as a PNG
-</figcaption>
+<figcaption>Excalidraw rendering of an imported Mermaid KW diagram, but exported as a PNG</figcaption>
 </figure>

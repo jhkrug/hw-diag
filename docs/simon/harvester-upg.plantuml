@@ -1,14 +1,24 @@
+'PlantUML
 @startuml
-  left to right direction
-  (1.0.0) -> (1.0.1)
-  (1.0.1) -> (1.0.2)
-  (1.0.2) -> (1.0.3)
-  (1.0.3) -> (1.1.0)
-  (1.0.3) -> (1.1.1)
-  (1.1.0) -> (1.1.1)
-  (1.1.0) -> (1.1.2)
-  (1.1.1) -> (1.1.2)
-  (1.1.2) -> (1.2.0) #line.dotted;text:red : Not recommended
-  (1.2.0) -> (1.2.1)
-  (1.1.2) -> (1.2.1)
+    skinparam roundcorner 25
+    rectangle "1.0.0" as rel.1.0.0
+    rectangle "1.0.1" as rel.1.0.1
+    rectangle "1.0.2" as rel.1.0.2
+    rectangle "1.0.3" as rel.1.0.3
+    rectangle "1.1.0" as rel.1.1.0
+    rectangle "1.1.1" as rel.1.1.1
+    rectangle "1.1.2" as rel.1.1.2
+    rectangle "1.2.0" as rel.1.2.0
+    rectangle "1.2.1" as rel.1.2.1
+    rel.1.0.0 -> rel.1.0.1
+    rel.1.0.1 -> rel.1.0.2
+    rel.1.0.2 -> rel.1.0.3
+    rel.1.0.3 -> rel.1.1.0
+    rel.1.0.3 --> rel.1.1.1
+    rel.1.1.0 --> rel.1.1.1
+    rel.1.1.0 -> rel.1.1.2
+    rel.1.1.1 -> rel.1.1.2
+    rel.1.1.2 --> rel.1.2.0 #line.dotted;line:red;text:red : Not\nrecommended
+    rel.1.2.0 -> rel.1.2.1
+    rel.1.1.2 -> rel.1.2.1
 @enduml

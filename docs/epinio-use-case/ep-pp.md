@@ -9,9 +9,7 @@ This diagram is part of the description of the [Epinio push process](https://doc
 
 ![Epinio detailed push diagram](/img/epinio-push-detailed.svg)
 
-<figcaption>
-Figure 1: Epinio push diagram
-</figcaption>
+<figcaption>Epinio push diagram</figcaption>
 </figure>
 
 ## Epinio with Excalidraw
@@ -34,25 +32,19 @@ Which I sort of like, but am not sure about its use in technical documentation.
 
 ![Excalidraw SVG](/img/epinio-excalidraw.svg)
 
-<figcaption>
-Figure 3: The Excalidraw SVG
-</figcaption>
+<figcaption>The Excalidraw SVG</figcaption>
 </figure>
 
 <figure>
 
 ![Excalidraw PNG](/img/epinio-excalidraw.png)
 
-<figcaption>
-</figcaption>
-Figure 3: The Excalidraw PNG
+<figcaption>The Excalidraw PNG</figcaption>
 </figure>
 
 <figure>
 
 ![Excalidraw hand PNG](/img/epinio-excalidraw-hand.png)
 
-<figcaption>
-</figcaption>
-Figure 3: The Excalidraw hand drawn PNG
+<figcaption>The Excalidraw hand drawn PNG</figcaption>
 </figure>

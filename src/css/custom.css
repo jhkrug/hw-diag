@@ -29,10 +29,17 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+body {counter-reset: figures;}
 figure {
   border: 1px solid darkgreen;
   padding: 2px;
 }
+
 figcaption {
+  counter-increment: figures;
   font-style: italic;
+}
+
+figcaption::before {
+  content:' Figure ' counter(figures) ': ';
 }
