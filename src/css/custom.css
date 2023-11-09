@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --color-figure-border: lightgray;
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -19,6 +20,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --color-figure-border: gray;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -31,8 +33,9 @@
 
 body {counter-reset: figures;}
 figure {
-  border: 1px solid darkgreen;
+  border: 1px solid var(--color-figure-border);
   padding: 2px;
+  margin: 1rem 0.5rem;
 }
 
 figcaption {

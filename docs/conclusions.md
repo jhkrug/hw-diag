@@ -91,3 +91,4 @@ And it renders like other images seen in this document.
 
 You can link to the image like the next inline link anchor, if using `id` in the `<figure>` tag.
 A [figure](#fig-capt) to demo.
+It's pretty good but needs some more effort on the CSS styling.

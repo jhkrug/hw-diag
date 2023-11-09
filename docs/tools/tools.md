@@ -4,7 +4,7 @@ title: Selected tools
 ---
 
 - Interactive
-  - [Inkscape](https://inkscape.org), a traditional application has been used by team members, both Rancher and SUSE.
+  - [Inkscape](https://inkscape.org), a traditional application, has been used by some team members, both Rancher and SUSE.
   It's maintained and in development.
   - An in-browser alternative is [Excalidraw](https://excalidraw.com) which appears to be both simple and easy to start with extensibility via libraries of components.
 - Diagramming-as-code

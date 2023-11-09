@@ -268,6 +268,65 @@ or SVG (which seems to render better):
 <figcaption>Produced by PlantUML</figcaption>
 </figure>
 
+
+## Diagrams/Mingrammer
+
+This option provides for creating diagrams in Python code.
+It has a comprehensive icon library for modern architecture components built-in.
+In this diagram I've used an AWS worker icon to represent a release version of Harvester.
+
+So, definitely in the diagrams-as-code camp.
+It's nice but perhaps too steep a learning curve for a documentarian, just needing to produce a diagram.
+Great for Python programmers though.
+It felt easy to get going and then difficult to specify some details like label placement.
+But, as it's Python it should be possible if time is invested.
+Seems to be based on Graphviz underneath.
+
+This code:
+
+<details>
+<summary>Python diagram code - `harvester-upgrade-paths.py`</summary>
+
+```python
+from diagrams import Diagram, Edge
+from diagrams.aws.compute import ECS
+
+with Diagram("Harvester Upgrade Paths", show=False, outformat="png"):
+    rel_1_0_0 = ECS("1.0.0")
+    rel_1_0_1 = ECS("1.0.1")
+    rel_1_0_2 = ECS("1.0.2")
+    rel_1_0_3 = ECS("1.0.3")
+    rel_1_1_0 = ECS("1.1.0")
+    rel_1_1_1 = ECS("1.1.1")
+    rel_1_1_2 = ECS("1.1.2")
+    rel_1_2_0 = ECS("1.2.0")
+    rel_1_2_1 = ECS("1.2.1")
+
+    rel_1_0_0 >> rel_1_0_1
+    rel_1_0_1 >> rel_1_0_2
+    rel_1_0_2 >> rel_1_0_3
+    rel_1_0_3 >> rel_1_1_0
+    rel_1_0_3 >> rel_1_1_1
+    rel_1_1_0 >> rel_1_1_1
+    rel_1_1_0 >> rel_1_1_2
+    rel_1_1_1 >> rel_1_1_2
+    rel_1_1_2 >> Edge(label="Not recommended",
+                      color="red", style="dotted") >> rel_1_2_0
+    rel_1_1_2 >> rel_1_2_1
+    rel_1_2_0 >> rel_1_2_1
+```
+
+</details>
+
+produces the output PNG when run `python harvester-upg.py`.
+
+<figure>
+
+![](/img/harvester_upgrade_paths.png)
+
+<figcaption>Produced by Diagrams/Mingrammer</figcaption>
+</figure>
+
 ## Observations
 
 A good use of these tools in our documentation.
@@ -275,4 +334,4 @@ The Mermaid version seems better integrated with Docusaurus and VScode.
 It's easier to write and preview directly in the markdown.
 The PlantUML is saved in a file and processed with a CLI to produce an PNG or SVG for integration into the document.
 I think the Mermaid version looks better.
-It appears clearer, diagrammatically, rather than PNG image quality.
+It appears clearer, diagrammatically.
