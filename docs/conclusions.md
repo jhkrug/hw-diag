@@ -71,6 +71,8 @@ Hmmm....... I'm going to let this brew for a little while.
   - Use Excalidraw for simplicity
   - Use draw.io, Inkscape, or Lucid for features and power.
 
+<figure>
+
 ```mermaid
 flowchart
   start[I have a diagram to do.]
@@ -101,3 +103,5 @@ flowchart
   lucid --> meh
   meh --> start
 ```
+<figcaption>Graphical conclusion</figcaption>
+</figure>
