@@ -8,7 +8,7 @@ As far as I am aware it exists only as a PNG.
 
 <figure>
 
-![Kubewarden architecture diagram](/img/kw-architecture.png)
+![Kubewarden architecture diagram](/static/img/kw-architecture.png)
 
 <figcaption>Original Kubewarden architecture diagram</figcaption>
 </figure>
