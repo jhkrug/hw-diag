@@ -84,7 +84,7 @@ And it renders like other images seen in this document.
 
 <figure id="fig-capt">
 
-![](/img/favicon.ico)
+![](/img/suse.png)
 
 <figcaption>A figure caption</figcaption>
 </figure>

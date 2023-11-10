@@ -48,3 +48,146 @@ Which I sort of like, but am not sure about its use in technical documentation.
 
 <figcaption>The Excalidraw hand drawn PNG</figcaption>
 </figure>
+
+<figure>
+
+```mermaid
+graph LR
+    app_user((App user))
+    subgraph epu[" "]
+        epinio_user((Epinio user))
+        epinio_push[Epinio push]
+    end
+    subgraph epinio_system[Epinio System]
+        epinio_api_server[api/v1]
+        subgraph epinio_api[Epinio API]
+            direction LR
+            upload
+            stage
+            deploy
+        end
+        subgraph app_runtime_resources[App runtime resources]
+            direction LR
+            k8s_dep[K8s Deployment]
+            k8s_service[K8s Service]
+            k8s_ingress[K8s Ingress]
+            stage
+            deploy
+        end
+        subgraph staging_job[Staging Job]
+            direction LR
+            download
+            unpack
+            build
+        end
+        subgraph reg[Registry]
+            direction LR
+            app1_r1[App 1]
+            app2_r2[App 2]
+            appn_rn[App n]
+        end
+        subgraph s3_minio["S3 (Minio)"]
+            direction LR
+            app1_s3m[App 1]
+            app2_s3m[App 2]
+            appn_s3m[App n]
+        end
+    end
+    epu -->|1a| epinio_api_server
+    epu -->|3a| epinio_api_server
+    epu -->|8a| epinio_api_server
+    epinio_api_server -->|1b| upload
+    epinio_api_server -->|3b| stage
+    epinio_api_server -->|8b| deploy
+    upload -->|2| s3_minio
+    stage -->|4| unpack
+    deploy -->|8| app_runtime_resources
+    s3_minio -->|5| download
+    build -->|7| reg
+    k8s_dep -->|9| reg
+    k8s_service --> app_user
+    k8s_ingress --> app_user
+```
+
+<figcaption>The Epinio push process - Mermaid C4 - `dagre` layout</figcaption>
+</figure>
+
+<figure>
+
+```mermaid
+%%{
+  init: {
+    "flowchart": {
+      "htmlLabels": false,
+      "defaultRenderer": "elk"
+    }
+  }
+}%%
+graph LR
+    app_user((App user))
+    subgraph epu[" "]
+        epinio_user((Epinio user))
+        epinio_push[Epinio push]
+    end
+    subgraph epinio_system[Epinio System]
+        epinio_api_server[api/v1]
+        subgraph epinio_api[Epinio API]
+            direction LR
+            upload
+            stage
+            deploy
+        end
+        subgraph app_runtime_resources[App runtime resources]
+            direction LR
+            k8s_dep[K8s Deployment]
+            k8s_service[K8s Service]
+            k8s_ingress[K8s Ingress]
+            stage
+            deploy
+        end
+        subgraph staging_job[Staging Job]
+            direction LR
+            download
+            unpack
+            build
+        end
+        subgraph reg[Registry]
+            direction LR
+            app1_r1[App 1]
+            app2_r2[App 2]
+            appn_rn[App n]
+        end
+        subgraph s3_minio["S3 (Minio)"]
+            direction LR
+            app1_s3m[App 1]
+            app2_s3m[App 2]
+            appn_s3m[App n]
+        end
+    end
+    epu -->|1a| epinio_api_server
+    epu -->|3a| epinio_api_server
+    epu -->|8a| epinio_api_server
+    epinio_api_server -->|1b| upload
+    epinio_api_server -->|3b| stage
+    epinio_api_server -->|8b| deploy
+    upload -->|2| s3_minio
+    stage -->|4| unpack
+    deploy -->|8| app_runtime_resources
+    s3_minio -->|5| download
+    build -->|7| reg
+    k8s_dep -->|9| reg
+    k8s_service --> app_user
+    k8s_ingress --> app_user
+```
+
+<figcaption>The Epinio push process - Mermaid C4 - `elk` layout</figcaption>
+</figure>
+
+## Lucid Chart
+
+<figure>
+
+![](/img/Epinio-Lucid-Test.svg)
+
+<figcaption>Epinio push process in Lucid exported as SVG</figcaption>
+</figure>
