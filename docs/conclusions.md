@@ -71,6 +71,40 @@ Hmmm....... I'm going to let this brew for a little while.
   - Use Excalidraw for simplicity
   - Use draw.io, Inkscape, or Lucid for features and power.
 
+<details>
+```markdown
+flowchart
+  start[I have a diagram to do.]
+  mermaid((Mermaid))
+  style mermaid stroke:green
+  interactive{Interactive?<br/>Are you sure?}
+  simplicity{simplicity<br/>or<br/>features?}
+  open-source-s{Open Source?}
+  open-source-f{Open Source?}
+  excalidraw[Excalidraw]
+  draw.io["draw.io<br/>or<br/>diagrams.net"]
+  inkscape[Inkscape]
+  lucid[Lucid Chart]
+  start --> mermaid
+  mermaid -->|I think I need interactive| interactive
+  interactive --> |Yes| simplicity
+  interactive --> |No, not really| mermaid
+  simplicity -->|simplicity| open-source-s
+  simplicity -->|features| open-source-f
+  open-source-s -->|Open Source| excalidraw
+  open-source-f -->|Open Source| draw.io
+  open-source-f -->|Open Source| inkscape
+  open-source-f -->|Proprietary| lucid
+  meh[Meh, I can probably refactor this as 'diagrams-as-code' in Mermaid]
+  excalidraw --> meh
+  draw.io --> meh
+  inkscape --> meh
+  lucid --> meh
+  meh --> start
+```
+<summary>Mermaid code for the last diagram below:</summary>
+</details>
+
 <figure>
 
 ```mermaid
