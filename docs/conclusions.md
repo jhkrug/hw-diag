@@ -72,6 +72,8 @@ Hmmm....... I'm going to let this brew for a little while.
   - Use draw.io, Inkscape, or Lucid for features and power.
 
 <details>
+<summary>Mermaid code for the last diagram below:</summary>
+
 ```markdown
 flowchart
   start[I have a diagram to do.]
@@ -102,7 +104,7 @@ flowchart
   lucid --> meh
   meh --> start
 ```
-<summary>Mermaid code for the last diagram below:</summary>
+
 </details>
 
 <figure>

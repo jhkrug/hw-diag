@@ -44,3 +44,4 @@ A short learning curve as opposed to features
 - The Rancher docs team use [Docusaurus](https://docusaurus.io)
 and [VSCode](https://code.visualstudio.com) for editing.
 So, tools that play well with both of those have advantages.
+- Fits well with an Agile project approach.
