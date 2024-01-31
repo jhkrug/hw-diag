@@ -1,7 +1,7 @@
 ---
 sidebar_label: Unrelated
 sidebar_position: 500
-title: Unlrelated discovery
+title: Unrelated discovery
 ---
 
 ## Other, unrelated.
